@@ -790,6 +790,24 @@
     ],
     "timestamp": "Jan/14/2021 21:22"
   },
+  "CF88945770": {
+    "contest_id": 1249,
+    "language": "GNU C++17",
+    "path": "codeforces\\1249\\B2.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B2",
+    "problem_name": "Books Exchange (hard version)",
+    "problem_url": "https://codeforces.com/contest/1249/problem/B2",
+    "submission_id": "CF88945770",
+    "submission_url": "https://codeforces.com/contest/1249/submission/88945770",
+    "tags": [
+      "dfs and similar",
+      "dsu",
+      "math",
+      "*1300"
+    ],
+    "timestamp": "Aug/05/2020 18:02"
+  },
   "CF88956182": {
     "contest_id": 1399,
     "language": "GNU C++17",
