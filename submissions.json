@@ -790,6 +790,23 @@
     ],
     "timestamp": "Jan/14/2021 21:22"
   },
+  "CF97821911": {
+    "contest_id": 898,
+    "language": "GNU C++17",
+    "path": "codeforces\\898\\E.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Squares and not squares",
+    "problem_url": "https://codeforces.com/contest/898/problem/E",
+    "submission_id": "CF97821911",
+    "submission_url": "https://codeforces.com/contest/898/submission/97821911",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "*1600"
+    ],
+    "timestamp": "Nov/07/2020 11:54"
+  },
   "CF97833043": {
     "contest_id": 1056,
     "language": "GNU C++17",
