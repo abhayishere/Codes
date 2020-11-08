@@ -790,6 +790,25 @@
     ],
     "timestamp": "Jan/14/2021 21:22"
   },
+  "CF97892956": {
+    "contest_id": 500,
+    "language": "GNU C++17",
+    "path": "codeforces\\500\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "New Year Book Reading",
+    "problem_url": "https://codeforces.com/contest/500/problem/C",
+    "submission_id": "CF97892956",
+    "submission_url": "https://codeforces.com/contest/500/submission/97892956",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "implementation",
+      "math",
+      "*1600"
+    ],
+    "timestamp": "Nov/08/2020 10:52"
+  },
   "CF97894579": {
     "contest_id": 848,
     "language": "GNU C++17",
