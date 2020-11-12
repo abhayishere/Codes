@@ -12,11 +12,32 @@ using namespace std;
 #define sortvec(v) sort(v.begin(),v.end());
 #define sortarr(a,n) sort(a,a+n);
 typedef pair<int, int> pt;
+
 vector<int>g[100005];
+bool vis[100005];
+int dp[100005];
+
+int dfs(int i)
+{
+    if(dp[i]!=-1)
+    {
+        return dp[i];
+    }
+    dp[i]=1;
+    int m=1;
+    for(auto x:g[i])
+    {
+        if(x<i)
+        m=max(m,1+dfs(x));
+    }
+    return dp[i]=m;
+}
+
 void solve()
 {
     int n,m;
     cin>>n>>m;
+    memset(dp,-1,sizeof(dp));
     for(int i=0;i<m;i++)
     {
         int a,b;
@@ -24,19 +45,15 @@ void solve()
         g[a].push_back(b);
         g[b].push_back(a);
     }
-    map<int,int>h;
     int ans=0;
-    for(int i=1;i<=n;i++)
+    for(int i=n;i>=1;i--)
     {
-        h[i]=max(h[i],1ll);
-        for(auto j:g[i])
-        {
-            if(j>i)h[j]=max(h[j],h[i]+1);
-        }
-        int t=h[i]*g[i].size();
-        ans=max(t,ans);
+        dfs(i);
     }
-
+    for(int i=1;i<=n;i++){
+        int t=1ll*dp[i]*g[i].size();
+        ans=max(ans,t);
+    }
     cout<<ans<<endl;
 }	
 
