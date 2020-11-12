@@ -790,6 +790,23 @@
     ],
     "timestamp": "Jan/14/2021 21:22"
   },
+  "CF98176108": {
+    "contest_id": 615,
+    "language": "GNU C++17",
+    "path": "codeforces\\615\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Longtail Hedgehog",
+    "problem_url": "https://codeforces.com/contest/615/problem/B",
+    "submission_id": "CF98176108",
+    "submission_url": "https://codeforces.com/contest/615/submission/98176108",
+    "tags": [
+      "dp",
+      "graphs",
+      "*1600"
+    ],
+    "timestamp": "Nov/12/2020 12:21"
+  },
   "CF98200927": {
     "contest_id": 1395,
     "language": "GNU C++17",
