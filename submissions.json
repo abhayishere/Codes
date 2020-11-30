@@ -789,5 +789,22 @@
       "strings"
     ],
     "timestamp": "Jan/14/2021 21:22"
+  },
+  "CF99994424": {
+    "contest_id": 1455,
+    "language": "GNU C++17",
+    "path": "codeforces\\1455\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Strange Functions",
+    "problem_url": "https://codeforces.com/contest/1455/problem/A",
+    "submission_id": "CF99994424",
+    "submission_url": "https://codeforces.com/contest/1455/submission/99994424",
+    "tags": [
+      "math",
+      "number theory",
+      "*800"
+    ],
+    "timestamp": "Nov/30/2020 20:07"
   }
 }
