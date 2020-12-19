@@ -1,4 +1,22 @@
 {
+  "CF101714101": {
+    "contest_id": 1461,
+    "language": "GNU C++17",
+    "path": "codeforces\\1461\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Random Events",
+    "problem_url": "https://codeforces.com/contest/1461/problem/C",
+    "submission_id": "CF101714101",
+    "submission_url": "https://codeforces.com/contest/1461/submission/101714101",
+    "tags": [
+      "dp",
+      "math",
+      "probabilities",
+      "*1500"
+    ],
+    "timestamp": "Dec/19/2020 14:09"
+  },
   "CF102033797": {
     "contest_id": 253,
     "language": "GNU C++17",
