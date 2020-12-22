@@ -21,12 +21,56 @@ void Sieve(int n) {
     } 
   
 } 
+int LAS(int arr[], int n)
+{
+ 
+    // "inc" and "dec" intialized as 1
+    // as single element is still LAS
+    int inc = 1;
+    int dec = 1;
+ 
+    // Iterate from second element
+    for (int i = 1; i < n; i++) 
+    {
+ 
+        if (arr[i] > arr[i - 1]) 
+        {
+ 
+            // "inc" changes iff "dec" 
+            // changes
+            inc = dec + 1;
+        }
+ 
+        else if (arr[i] < arr[i - 1]) 
+        {
+ 
+            // "dec" changes iff "inc" 
+            // changes
+            dec = inc + 1;
+        }
+    }
+ 
+    // Return the maximum length
+    return max(inc, dec);
+}
 void solve()
 {
     int n;
     cin>>n;
     string s;
     cin>>s;
+    int x=0,y=0;
+    for(auto i:s)
+    {
+        if(i=='1')x++;
+        else y++;
+    }if(x==0 || y==0)
+    {
+        if(n>2)cout<<3<<endl;
+        else cout<<n<<endl;
+        return;
+    }
+
     vector<char>f;
     int ans=0;
     int zf=0,of=0;
@@ -40,10 +84,16 @@ void solve()
         }
         if(z+1>=2)zf++;
         if(o+1>=2)of++;
+        if(z+1>2){
+            ans+=2;
+        }
+        if(o+1>2)ans+=2;
         if(i<n)
         f.push_back(s[i]);
     }
+    
     int size=f.size();
+    ans+=size;
     //cout<<zf<<" "<<of<<endl;
     if((zf>=1 && of>=1) || (zf>=2 || of>=2)){
         cout<<size+2<<endl;
@@ -56,7 +106,7 @@ void solve()
         cout<<size+1<<endl;
     }
     else
-    cout<<size<<endl;
+    cout<<ans<<endl;
 }
 signed main()
 {
