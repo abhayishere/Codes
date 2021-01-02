@@ -1,4 +1,22 @@
 {
+  "CF103035707": {
+    "contest_id": 1043,
+    "language": "GNU C++17",
+    "path": "codeforces\\1043\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Smallest Word",
+    "problem_url": "https://codeforces.com/contest/1043/problem/C",
+    "submission_id": "CF103035707",
+    "submission_url": "https://codeforces.com/contest/1043/submission/103035707",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "implementation",
+      "*1500"
+    ],
+    "timestamp": "Jan/02/2021 19:49"
+  },
   "CF103044705": {
     "contest_id": 1033,
     "language": "GNU C++17",
