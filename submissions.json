@@ -1,4 +1,23 @@
 {
+  "CF103078659": {
+    "contest_id": 534,
+    "language": "GNU C++17",
+    "path": "codeforces\\534\\D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Handshakes",
+    "problem_url": "https://codeforces.com/contest/534/problem/D",
+    "submission_id": "CF103078659",
+    "submission_url": "https://codeforces.com/contest/534/submission/103078659",
+    "tags": [
+      "binary search",
+      "constructive algorithms",
+      "data structures",
+      "greedy",
+      "*1900"
+    ],
+    "timestamp": "Jan/03/2021 13:36"
+  },
   "CF103144345": {
     "contest_id": 899,
     "language": "GNU C++17",
