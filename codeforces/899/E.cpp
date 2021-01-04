@@ -1,3 +1,4 @@
+//Kaamyaab hone ke liye nahin, Kaabil hone ke liye padho!
 #include <bits/stdc++.h>
 #define int long long int
 #define mod 1000000007
@@ -71,3 +72,4 @@ signed main()
         solve();
     }
 }
+//Life is a race … If you don’t run fast… you will be like a broken andaa…
